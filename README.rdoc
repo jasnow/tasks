@@ -1,0 +1,5 @@
+TUTORIAL REFERENCES:
+    -1- http://salayhin.wordpress.com/2012/10/19/test-driven-development-tdd-with-rails-3-and-rspec-part-1
+    -2- http://salayhin.wordpress.com/2012/10/20/test-driven-development-tdd-with-rails-3-and-rspec-part-2
+    -3- http://salayhin.wordpress.com/2012/10/20/test-driven-development-tdd-with-rails-3-and-rspec-part-3
+    -4- https://github.com/salayhin/rails-tasks
