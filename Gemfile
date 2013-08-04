@@ -20,6 +20,5 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'rb-inotify'
-#, '~> 0.9'
   gem 'launchy'
 end
