@@ -19,6 +19,7 @@ group :test, :development do
   gem 'turn'
   gem 'rspec-rails'
   gem 'capybara'
-  gem 'rb-inotify', '~> 0.9'
+  gem 'rb-inotify'
+#, '~> 0.9'
   gem 'launchy'
 end
