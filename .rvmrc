@@ -1,2 +1,2 @@
-rvm use 2.1.0-preview2@tasks --create
+rvm use 2.1.0-rc1@tasks --create
 
