@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Tasks::Application.config.secret_token = '18310b23732102e44205331fee6b7e22030e7433cca5b670543ce472a6f2cbdf0d39a0742505b2a98d7b7407011ee94d5ea82288e96d4f33a8cded87a0a41148'
+Tasks::Application.config.secret_token = '02dd6dc488065022d1e4da4ffb5cf884581138859ea986eb05894d80491cbe42765f820daee48964b0c69b59b086bc11d18c53a4425407189dfda29fe77a8689'
