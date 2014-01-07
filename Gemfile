@@ -7,8 +7,8 @@ gem 'rails', '4.1.0.beta1'
 gem 'sqlite3'
 
 group :assets do
-  gem 'sass-rails'
-  gem 'coffee-rails'
+  gem 'sass-rails', :require => 'sass'
+  gem 'coffee-rails', :require => 'coffee_script'
 
   gem 'uglifier'
 end
