@@ -22,3 +22,7 @@ group :test, :development do
   gem 'rb-inotify'
   gem 'launchy'
 end
+
+group :development do
+  gem 'codesake-dawn', :require => false
+end
