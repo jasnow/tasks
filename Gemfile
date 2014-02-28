@@ -17,7 +17,7 @@ gem 'jquery-rails'
 
 group :test, :development do
 #  gem 'turn'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '3.0.0.beta1'
   gem 'capybara'
   gem 'rb-inotify'
   gem 'launchy'
