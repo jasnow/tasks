@@ -216,12 +216,8 @@ DEPENDENCIES
   coffee-rails
   jquery-rails
   launchy
-<<<<<<< HEAD
   rails (= 4.1.0.rc2)
   rb-inotify
-=======
-  rails (= 4.1.0.rc1)
->>>>>>> 39f4c40b8e16af16babf10537a8e57be1aa6dce0
   rspec-rails (= 3.0.0.beta1)
   sass-rails
   sqlite3
