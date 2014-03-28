@@ -19,7 +19,7 @@ group :test, :development do
 #  gem 'turn'
   gem 'rspec-rails', '3.0.0.beta1'
   gem 'capybara'
-  gem 'rb-inotify'
+  gem 'rb-inotify' if /linux/ =~ RUBY_PLATFORM
   gem 'launchy'
 end
 
