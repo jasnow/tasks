@@ -7,7 +7,7 @@ ruby '2.1.1'
 gem 'sqlite3'
 
 group :assets do
-  gem 'sass-rails', :require => 'sass'
+  gem 'sass-rails', :require => 'sass', :git => 'https://github.com/rails/sass-rails.git'
   gem 'coffee-rails', :require => 'coffee_script'
 
   gem 'uglifier'
