@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/sass-rails.git
-  revision: 7138bbb401159b116dda4ec9dd4b375dc1d2e59a
+  revision: 07011eb7fa656b4b16de33fa8e6b161406f99d82
   specs:
     sass-rails (4.0.1)
       railties (>= 4.0.0, < 5.0)
@@ -51,7 +51,7 @@ GEM
       mechanize
       nokogiri
       rainbow (~> 2.0.0)
-    codesake-dawn (1.1.1)
+    codesake-dawn (1.1.2)
       codesake-commons (~> 0.95.0)
       coveralls
       cvss
@@ -171,7 +171,7 @@ GEM
       rspec-expectations (= 3.0.0.beta1)
       rspec-mocks (= 3.0.0.beta1)
     rspec-support (3.0.0.beta1)
-    ruby_parser (3.5.0)
+    ruby_parser (3.6.0)
       sexp_processor (~> 4.1)
     sass (3.2.19)
     sexp_processor (4.4.3)
