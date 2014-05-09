@@ -1,2 +1,2 @@
-rvm use 2.1.1@tasks --create
+rvm use 2.1.2@tasks --create
 
