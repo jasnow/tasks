@@ -213,7 +213,7 @@ DEPENDENCIES
   launchy
   rails (= 4.1.1)
   rb-inotify
-  rspec-rails (= 3.0.0.beta1)
+  rspec-rails
   sass
   sqlite3
   uglifier
