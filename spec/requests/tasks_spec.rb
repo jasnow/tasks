@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "Tasks" do
+describe "Tasks", :type => :request do
   before do
     @task = Task.create :task => 'go to bed'
   end
