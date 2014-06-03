@@ -40,8 +40,9 @@ RSpec.configure do |config|
 
   config.include Capybara::DSL
 
-#RSPEC 3.0
-#  config.mock_with :rspec do |c|
-#    c.yield_receiver_to_any_instance_implementation_blocks = true
-#  end
+  # RSPEC 3.0
+  config.infer_spec_type_from_file_location!
+  config.mock_with :rspec do |c|
+    c.yield_receiver_to_any_instance_implementation_blocks = true
+  end
 end
