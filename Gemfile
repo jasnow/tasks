@@ -14,7 +14,7 @@ gem 'jquery-rails'
 
 group :test, :development do
 #  gem 'turn'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '3.0.2'
   gem 'capybara'
   gem 'rb-inotify' if /linux/ =~ RUBY_PLATFORM
   gem 'launchy'
