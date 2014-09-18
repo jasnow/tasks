@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.1.6'
 
-ruby '2.1.2'
+ruby '2.2.0'
 
 gem 'sqlite3'
 
@@ -21,5 +21,5 @@ group :test, :development do
 end
 
 group :development do
-  gem 'codesake-dawn', :require => false
+  gem 'dawn', :require => false
 end
