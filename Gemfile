@@ -18,5 +18,5 @@ group :test, :development do
 end
 
 group :development do
-  gem 'dawn', :require => false
+  gem 'dawnscanner', :require => false
 end
