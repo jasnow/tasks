@@ -7,9 +7,10 @@ gem 'sass'
 gem 'coffee-script'
 gem 'uglifier'
 gem 'jquery-rails'
+gem 'overcommit'
 
 group :development do
-  gem 'dawnscanner', :require => false
+  gem 'dawnscanner', require: false
 end
 
 group :test, :development do
