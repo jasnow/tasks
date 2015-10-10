@@ -152,7 +152,7 @@ GEM
     rspec-support (3.3.0)
     ruby_parser (3.7.1)
       sexp_processor (~> 4.1)
-    sass (3.4.18)
+    sass (3.4.19)
     sexp_processor (4.6.0)
     sprockets (3.4.0)
       rack (> 1, < 3)
