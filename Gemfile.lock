@@ -68,7 +68,7 @@ GEM
       dm-validations (~> 1.2.0)
     data_objects (0.10.16)
       addressable (~> 2.1)
-    dawnscanner (1.5.1)
+    dawnscanner (1.5.2)
       cvss
       data_mapper
       dm-sqlite-adapter
@@ -244,4 +244,4 @@ DEPENDENCIES
   uglifier
 
 BUNDLED WITH
-   1.11.0
+   1.11.2
