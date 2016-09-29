@@ -42,7 +42,7 @@ GEM
     bcrypt-ruby (3.1.5)
       bcrypt (>= 3.1.3)
     builder (3.2.2)
-    capybara (2.9.1)
+    capybara (2.9.2)
       addressable
       mime-types (>= 1.16)
       nokogiri (>= 1.3.3)
@@ -69,7 +69,7 @@ GEM
       dm-validations (~> 1.2.0)
     data_objects (0.10.17)
       addressable (~> 2.1)
-    dawnscanner (1.6.3)
+    dawnscanner (1.6.4)
       cvss
       data_mapper
       dm-sqlite-adapter
