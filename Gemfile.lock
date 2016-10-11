@@ -199,7 +199,7 @@ GEM
       rspec-mocks (~> 3.5.0)
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
-    ruby_parser (3.8.2)
+    ruby_parser (3.8.3)
       sexp_processor (~> 4.1)
     sass (3.4.22)
     sexp_processor (4.7.0)
@@ -245,4 +245,4 @@ DEPENDENCIES
   uglifier
 
 BUNDLED WITH
-   1.13.2
+   1.13.3
