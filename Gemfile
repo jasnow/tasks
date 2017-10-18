@@ -15,7 +15,7 @@ end
 
 group :test, :development do
   gem 'rspec-rails'
-  gem 'capybara'
 #LINUX:  gem 'rb-inotify' if /linux/ =~ RUBY_PLATFORM
   gem 'launchy'
+  gem 'capybara'
 end
