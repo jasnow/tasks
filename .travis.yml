@@ -4,7 +4,7 @@ rvm:
 before_script: bundle exec rake db:migrate RAILS_ENV=test
 before_install:
 - gem update --system
-- gem install bundler
+- bundle update --bundler
 cache:
   bundler: false
 notifications:
