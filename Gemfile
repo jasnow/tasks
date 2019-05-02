@@ -4,7 +4,6 @@ gem 'rails', git: 'https://github.com/rails/rails'
 
 gem 'sqlite3'
 gem 'sass'
-gem 'coffee-script'
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'overcommit'

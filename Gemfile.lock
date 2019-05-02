@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: b343beba03722672b9bb827f8ce29c7c1c216406
+  revision: 1ce5153a099e82f761315154dfe5e01253dafd81
   specs:
     actioncable (6.1.0.alpha)
       actionpack (= 6.1.0.alpha)
@@ -95,10 +95,6 @@ GEM
       xpath (~> 3.2)
     childprocess (0.9.0)
       ffi (~> 1.0, >= 1.0.11)
-    coffee-script (2.4.1)
-      coffee-script-source
-      execjs
-    coffee-script-source (1.12.2)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
     cvss (0.99.0)
@@ -223,7 +219,6 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
-  coffee-script
   dawnscanner
   jquery-rails
   launchy
