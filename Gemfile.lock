@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: ea730adb95c8a970924eaf7d492540095518d457
+  revision: 38a945d615a37f568bdaad02cd1cbec6f9ccafb5
   specs:
     actioncable (6.1.0.alpha)
       actionpack (= 6.1.0.alpha)
@@ -85,14 +85,13 @@ GEM
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
     builder (3.2.3)
-    capybara (3.20.1)
+    capybara (3.20.2)
       addressable
       mini_mime (>= 0.1.3)
       nokogiri (~> 1.8)
       rack (>= 1.6.0)
       rack-test (>= 0.6.3)
       regexp_parser (~> 1.2)
-      uglifier
       xpath (~> 3.2)
     childprocess (0.9.0)
       ffi (~> 1.0, >= 1.0.11)
