@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', git: 'https://github.com/rails/rails'
 
 gem 'sqlite3'
-gem 'sass-rails'
+gem 'sassc-rails'
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'overcommit'

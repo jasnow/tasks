@@ -177,8 +177,6 @@ GEM
     rspec-support (3.8.2)
     ruby_parser (3.13.1)
       sexp_processor (~> 4.9)
-    sass-rails (6.0.0.beta3)
-      sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.0.1)
       ffi (~> 1.9)
       rake
@@ -228,7 +226,7 @@ DEPENDENCIES
   overcommit
   rails!
   rspec-rails (= 4.0.0.beta2)
-  sass-rails
+  sassc-rails
   sqlite3
   uglifier
 
