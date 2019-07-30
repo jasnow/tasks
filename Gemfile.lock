@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 004f223f33447cd2ceed8c5c0f590aa0ce9c043d
+  revision: 7195455561ce540f929729ffa9d66d21e9697b39
   specs:
     actioncable (6.1.0.alpha)
       actionpack (= 6.1.0.alpha)
@@ -157,9 +157,6 @@ GEM
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
     rake (12.3.3)
-    rb-fsevent (0.10.3)
-    rb-inotify (0.10.0)
-      ffi (~> 1.0)
     regexp_parser (1.6.0)
     rspec-core (3.8.2)
       rspec-support (~> 3.8.0)
@@ -180,11 +177,17 @@ GEM
     rspec-support (3.8.2)
     ruby_parser (3.13.1)
       sexp_processor (~> 4.9)
-    sass (3.7.4)
-      sass-listen (~> 4.0.0)
-    sass-listen (4.0.0)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
+    sass-rails (6.0.0.beta3)
+      sassc-rails (~> 2.1, >= 2.1.1)
+    sassc (2.0.1)
+      ffi (~> 1.9)
+      rake
+    sassc-rails (2.1.2)
+      railties (>= 4.0.0)
+      sassc (>= 2.0)
+      sprockets (> 3.0)
+      sprockets-rails
+      tilt
     sexp_processor (4.12.1)
     sprockets (3.7.2)
       concurrent-ruby (~> 1.0)
@@ -225,7 +228,7 @@ DEPENDENCIES
   overcommit
   rails!
   rspec-rails (= 4.0.0.beta2)
-  sass
+  sass-rails
   sqlite3
   uglifier
 
