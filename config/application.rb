@@ -23,5 +23,7 @@ module Tasks
     config.generators.javascript_engine = :js
 
     config.action_dispatch.return_only_media_type_on_content_type = false
+
+    config.active_record.sqlite3.represent_boolean_as_integer = true
   end
 end

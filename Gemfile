@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', git: 'https://github.com/rails/rails'
+gem 'rails', '5.2.3'
 
 gem 'sqlite3'
 gem 'sassc-rails'
