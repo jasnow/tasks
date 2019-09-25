@@ -155,7 +155,7 @@ GEM
       rspec-mocks (~> 3.8)
       rspec-support (~> 3.8)
     rspec-support (3.8.2)
-    ruby_parser (3.13.1)
+    ruby_parser (3.14.0)
       sexp_processor (~> 4.9)
     sassc (2.2.1)
       ffi (~> 1.9)
@@ -165,7 +165,7 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    sexp_processor (4.12.1)
+    sexp_processor (4.13.0)
     sprockets (3.7.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
