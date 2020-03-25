@@ -13,7 +13,7 @@ group :development do
 end
 
 group :test, :development do
-  gem 'rspec-rails', '4.0.0.beta4' # 10/18/2019: LOCKED DOWN
+  gem 'rspec-rails'
 #LINUX:  gem 'rb-inotify' if /linux/ =~ RUBY_PLATFORM
   gem 'launchy'
   gem 'capybara'
