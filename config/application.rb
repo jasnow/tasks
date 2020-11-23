@@ -24,6 +24,6 @@ module Tasks
 
     config.action_dispatch.return_only_media_type_on_content_type = false
 
-    config.active_record.sqlite3.represent_boolean_as_integer = true
+# config.active_record.sqlite3.represent_boolean_as_integer = true # 11/23/2020: Commented out
   end
 end
