@@ -1,0 +1,7 @@
+   2 rvm use 2.5.8@ruby2.5-rails4.2 --create
+   1 rvm use 2.6.6@ruby2.6-no-rails --create
+   3 rvm use 2.6.6@ruby2.6-rails6.0 --create
+  14 rvm use 2.7.2@ruby2.7-no-rails --create
+   1 rvm use 2.7.2@ruby2.7-rails5.2 --create
+  24 rvm use 2.7.2@ruby2.7-rails6.0 --create
+  11 rvm use 2.7.2@ruby2.7-rails6.1 --create
