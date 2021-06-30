@@ -199,12 +199,12 @@ GEM
     temple (0.8.2)
     terminal-table (3.0.1)
       unicode-display_width (>= 1.1.1, < 3)
+    terser (1.1.5)
+      execjs (>= 0.3.0, < 3)
     thor (1.1.0)
     tilt (2.0.10)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
-    uglifier (4.2.0)
-      execjs (>= 0.3.0, < 3)
     unicode-display_width (2.0.0)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
@@ -227,7 +227,7 @@ DEPENDENCIES
   rspec-rails
   sassc-rails
   sqlite3
-  uglifier
+  terser
 
 BUNDLED WITH
    2.2.21

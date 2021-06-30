@@ -4,7 +4,7 @@ gem 'rails', '6.1.4'
 
 gem 'sqlite3'
 gem 'sassc-rails'
-gem 'uglifier'
+gem 'terser'
 gem 'jquery-rails'
 gem 'overcommit'
 
