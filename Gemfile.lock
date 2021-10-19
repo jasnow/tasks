@@ -125,7 +125,7 @@ GEM
       rexml (~> 3.2)
     ptools (1.4.2)
     public_suffix (4.0.6)
-    racc (1.5.2)
+    racc (1.6.0)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
