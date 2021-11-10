@@ -177,7 +177,7 @@ GEM
       rspec-mocks (~> 3.10)
       rspec-support (~> 3.10)
     rspec-support (3.10.3)
-    ruby_parser (3.18.0)
+    ruby_parser (3.18.1)
       sexp_processor (~> 4.16)
     sassc (2.4.0)
       ffi (~> 1.9)
