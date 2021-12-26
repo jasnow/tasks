@@ -7,7 +7,8 @@ gem 'sassc-rails'
 gem 'terser'
 gem 'jquery-rails'
 gem 'overcommit'
-
+gem 'net-smtp' # Added for Ruby 3.1.
+ 
 group :development do
   gem 'dawnscanner', require: false
 end
