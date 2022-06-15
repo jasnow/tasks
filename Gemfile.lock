@@ -122,7 +122,7 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    minitest (5.15.0)
+    minitest (5.16.0)
     net-imap (0.2.3)
       digest
       net-protocol
@@ -216,7 +216,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.3)
+    sqlite3 (1.4.4)
     strscan (3.0.3)
     sys-uname (1.2.2)
       ffi (~> 1.1)
