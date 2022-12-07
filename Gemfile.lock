@@ -144,7 +144,7 @@ GEM
       iniparse (~> 1.4)
       rexml (~> 3.2)
     ptools (1.5.0)
-    public_suffix (5.0.0)
+    public_suffix (5.0.1)
     racc (1.6.1)
     rack (2.2.4)
     rack-test (2.0.2)
