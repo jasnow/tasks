@@ -82,7 +82,7 @@ GEM
     concurrent-ruby (1.1.10)
     crass (1.0.6)
     cvss (0.99.0)
-    date (3.3.1)
+    date (3.3.2)
     dawnscanner (1.6.9)
       cvss
       haml
@@ -182,7 +182,7 @@ GEM
     rexml (3.2.5)
     rspec-core (3.12.0)
       rspec-support (~> 3.12.0)
-    rspec-expectations (3.12.0)
+    rspec-expectations (3.12.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
     rspec-mocks (3.12.1)
