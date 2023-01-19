@@ -1,12 +1,10 @@
-require 'spec_helper'
+require "spec_helper"
 
-describe TasksController, :type => :controller do
-
+describe TasksController, type: :controller do
   describe "GET 'index'" do
     it "returns http success" do
-      get 'index'
+      get "index"
       expect(response).to be_successful
     end
   end
-
 end

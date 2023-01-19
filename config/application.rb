@@ -1,6 +1,6 @@
-require File.expand_path('../boot', __FILE__)
+require File.expand_path("../boot", __FILE__)
 
-require 'rails/all'
+require "rails/all"
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -24,7 +24,7 @@ module Tasks
 
     config.action_dispatch.return_only_media_type_on_content_type = false
 
-# config.active_record.sqlite3.represent_boolean_as_integer = true # 11/23/2020: Commented out
+    # config.active_record.sqlite3.represent_boolean_as_integer = true # 11/23/2020: Commented out
     config.active_record.legacy_connection_handling = false
   end
 end

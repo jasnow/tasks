@@ -1,20 +1,21 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'rails', '7.0.4.1'
+gem "rails", "7.0.4.1"
 
-gem 'sqlite3'
-gem 'sassc-rails'
-gem 'terser'
-gem 'jquery-rails'
-gem 'overcommit'
- 
+gem "sqlite3"
+gem "sassc-rails"
+gem "terser"
+gem "jquery-rails"
+gem "overcommit"
+
 group :development do
-  gem 'dawnscanner', require: false
+  gem "dawnscanner", require: false
 end
 
 group :test, :development do
-  gem 'rspec-rails'
-#LINUX:  gem 'rb-inotify' if /linux/ =~ RUBY_PLATFORM
-  gem 'launchy'
-  gem 'capybara'
+  gem "rspec-rails"
+  # LINUX:  gem 'rb-inotify' if /linux/ =~ RUBY_PLATFORM
+  gem "launchy"
+  gem "capybara"
+  gem "standard"
 end

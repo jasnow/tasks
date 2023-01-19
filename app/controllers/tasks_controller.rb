@@ -5,9 +5,9 @@ class TasksController < ApplicationController
   end
 
   def create
-   #render :text => params.inspect
-   Task.create task_params
-   redirect_to(request.referer)
+    # render :text => params.inspect
+    Task.create task_params
+    redirect_to(request.referer)
   end
 
   def edit
@@ -17,19 +17,20 @@ class TasksController < ApplicationController
   def update
     task = Task.find params[:id]
     if task.update(task_params)
-      redirect_to tasks_path,  :notice => 'Your tasks successfully been updated'
+      redirect_to tasks_path, notice: "Your tasks successfully been updated"
     else
       redirect_to(request.referer,
-        :notice => 'There was an error updating your task.')
+        notice: "There was an error updating your task.")
     end
   end
 
   def destroy
-     Task.destroy params[:id]
-     redirect_to(request.referer, :notice => 'Task has been deleted')
+    Task.destroy params[:id]
+    redirect_to(request.referer, notice: "Task has been deleted")
   end
 
-private
+  private
+
   def task_params
     params.require(:task).permit(:task)
   end
