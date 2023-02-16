@@ -280,7 +280,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     thor (1.2.1)
     tilt (2.0.11)
-    timeout (0.3.1)
+    timeout (0.3.2)
     tty-color (0.6.0)
     tty-cursor (0.7.1)
     tty-option (0.2.0)
@@ -322,4 +322,4 @@ DEPENDENCIES
   terser
 
 BUNDLED WITH
-   2.4.6
+   2.4.7
