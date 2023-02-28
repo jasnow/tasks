@@ -7,6 +7,7 @@ gem "sassc-rails"
 gem "terser"
 gem "jquery-rails"
 gem "overcommit"
+gem "webrick"
 
 group :development do
   gem "dawnscanner", require: false

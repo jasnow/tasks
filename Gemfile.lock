@@ -219,7 +219,7 @@ GEM
       rubocop-ast (>= 1.24.1, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 3.0)
-    rubocop-ast (1.26.0)
+    rubocop-ast (1.27.0)
       parser (>= 3.2.1.0)
     rubocop-performance (1.15.2)
       rubocop (>= 1.7.0, < 2.0)
@@ -295,6 +295,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.4.2)
     unicode_utils (1.4.0)
+    webrick (1.8.1)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -320,6 +321,7 @@ DEPENDENCIES
   sqlite3
   standard
   terser
+  webrick
 
 BUNDLED WITH
    2.4.7
