@@ -15,3 +15,4 @@
 /tmp
 config/secrets.yml
 node_modules/
+coverage

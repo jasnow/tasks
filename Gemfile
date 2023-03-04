@@ -19,6 +19,7 @@ group :test, :development do
   gem "launchy"
   gem "capybara"
   gem "standard"
+  gem 'simplecov'
   gem "ruby_audit"
   gem "spektr"
 end
