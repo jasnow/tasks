@@ -2,6 +2,9 @@ source "https://rubygems.org"
 
 gem "rails", "7.0.8"
 
+gem 'bigdecimal'
+gem 'mutex_m'
+
 gem "sqlite3"
 gem "sassc-rails"
 gem "terser"

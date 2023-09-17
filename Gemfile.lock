@@ -70,6 +70,7 @@ GEM
       public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
     base64 (0.1.1)
+    bigdecimal (3.1.4)
     builder (3.2.4)
     bundler-audit (0.9.1)
       bundler (>= 1.2.0, < 3)
@@ -102,7 +103,7 @@ GEM
     diff-lcs (1.5.0)
     docile (1.4.0)
     erubi (1.12.0)
-    execjs (2.9.0)
+    execjs (2.9.1)
     ffi (1.15.5)
     globalid (1.2.1)
       activesupport (>= 6.1)
@@ -138,6 +139,7 @@ GEM
     mini_mime (1.1.5)
     mini_portile2 (2.8.4)
     minitest (5.20.0)
+    mutex_m (0.1.2)
     net-imap (0.3.7)
       date
       net-protocol
@@ -232,7 +234,7 @@ GEM
       unicode-display_width (>= 2.4.0, < 3.0)
     rubocop-ast (1.29.0)
       parser (>= 3.2.1.0)
-    rubocop-performance (1.19.0)
+    rubocop-performance (1.19.1)
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
     ruby-progressbar (1.13.0)
@@ -291,7 +293,7 @@ GEM
     standard-performance (1.2.0)
       lint_roller (~> 1.1)
       rubocop-performance (~> 1.19.0)
-    stringio (3.0.8)
+    stringio (3.0.9)
     strings (0.2.1)
       strings-ansi (~> 0.2)
       unicode-display_width (>= 1.5, < 3.0)
@@ -305,7 +307,7 @@ GEM
     terser (1.1.18)
       execjs (>= 0.3.0, < 3)
     thor (1.2.2)
-    tilt (2.2.0)
+    tilt (2.3.0)
     timeout (0.4.0)
     tty-color (0.6.0)
     tty-cursor (0.7.1)
@@ -335,10 +337,12 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  bigdecimal
   capybara
   dawnscanner
   jquery-rails
   launchy
+  mutex_m
   overcommit
   rails (= 7.0.8)
   rspec-rails
