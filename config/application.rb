@@ -25,6 +25,6 @@ module Tasks
     config.action_dispatch.return_only_media_type_on_content_type = false
 
     # config.active_record.sqlite3.represent_boolean_as_integer = true # 11/23/2020: Commented out
-    config.active_record.legacy_connection_handling = false
+    config.active_support.cache_format_version = 7.0
   end
 end
