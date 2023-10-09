@@ -362,12 +362,10 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bigdecimal
   capybara
   dawnscanner
   jquery-rails
   launchy
-  mutex_m
   overcommit
   rails (= 7.1.0)
   rspec-rails
