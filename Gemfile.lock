@@ -110,7 +110,7 @@ GEM
       sys-uname
       terminal-table
       thor
-    diff-lcs (1.5.0)
+    diff-lcs (1.5.1)
     docile (1.4.0)
     drb (2.2.0)
       ruby2_keywords
