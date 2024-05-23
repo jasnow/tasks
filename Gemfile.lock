@@ -153,7 +153,7 @@ GEM
     matrix (0.4.2)
     mini_mime (1.1.5)
     mini_portile2 (2.8.6)
-    minitest (5.23.0)
+    minitest (5.23.1)
     mutex_m (0.2.0)
     net-imap (0.4.11)
       date
@@ -194,7 +194,7 @@ GEM
       stringio
     ptools (1.5.0)
     public_suffix (5.0.5)
-    racc (1.7.3)
+    racc (1.8.0)
     rack (3.0.11)
     rack-session (2.0.0)
       rack (>= 3.0.0)
@@ -234,7 +234,7 @@ GEM
       zeitwerk (~> 2.6)
     rainbow (3.1.1)
     rake (13.2.1)
-    rdoc (6.6.3.1)
+    rdoc (6.7.0)
       psych (>= 4.0.0)
     regexp_parser (2.9.2)
     reline (0.5.7)
