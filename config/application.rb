@@ -26,5 +26,7 @@ module Tasks
 
     # config.active_record.sqlite3.represent_boolean_as_integer = true # 11/23/2020: Commented out
     config.active_support.cache_format_version = 7.0
+
+    config.active_support.to_time_preserves_timezone = :zone
   end
 end
