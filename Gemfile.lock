@@ -153,7 +153,7 @@ GEM
     matrix (0.4.2)
     mini_mime (1.1.5)
     mini_portile2 (2.8.8)
-    minitest (5.25.1)
+    minitest (5.25.2)
     net-imap (0.5.1)
       date
       net-protocol
@@ -302,7 +302,7 @@ GEM
       actionpack (>= 6.1)
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
-    sqlite3 (2.2.0)
+    sqlite3 (2.3.0)
       mini_portile2 (~> 2.8.0)
     standard (1.42.1)
       language_server-protocol (~> 3.17.0.2)
