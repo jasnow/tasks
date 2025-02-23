@@ -144,7 +144,7 @@ GEM
     json (2.10.1)
     justify (1.0.2)
     language_server-protocol (3.17.0.4)
-    launchy (3.1.0)
+    launchy (3.1.1)
       addressable (~> 2.8)
       childprocess (~> 5.0)
       logger (~> 1.6)
@@ -426,4 +426,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.6.4
+   2.6.5
