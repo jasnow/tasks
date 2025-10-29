@@ -99,7 +99,7 @@ GEM
     connection_pool (2.5.4)
     crass (1.0.6)
     cvss (0.99.0)
-    date (3.4.1)
+    date (3.5.0)
     dawnscanner (2.2.0)
       cvss
       haml
@@ -257,7 +257,7 @@ GEM
       tsort (>= 0.2)
       zeitwerk (~> 2.6)
     rainbow (3.1.1)
-    rake (13.3.0)
+    rake (13.3.1)
     rdoc (6.15.0)
       erb
       psych (>= 4.0.0)
@@ -384,7 +384,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     thor (1.4.0)
     tilt (2.6.1)
-    timeout (0.4.3)
+    timeout (0.4.4)
     tsort (0.2.0)
     tty-color (0.6.0)
     tty-cursor (0.7.1)
