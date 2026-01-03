@@ -20,6 +20,5 @@ group :test, :development do
   gem "capybara"
   gem "standard"
   gem 'simplecov'
-  gem "ruby_audit"
   gem "spektr"
 end
